@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --chart-bg: white;
+}
+
+body.dark-mode {
+  background: #0f172a;
+  color: white;
+}
+
+body.dark-mode .container {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark-mode .card {
+  background: #334155;
+  color: white;
+}
+
+body.dark-mode table {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark-mode th {
+  background: #38bdf8;
+}
+
+body.dark-mode td {
+  border-color: #334155;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+  background: #334155;
+  color: white;
+  border: 1px solid #475569;
+}
+
+body.dark-mode .navbar {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark-mode .sidebar {
+  background: #020617;
+}
+
+body.dark-mode button {
+  background: #38bdf8;
+  color: black;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+  color: white;
+}
+
+body.dark-mode {
+  --chart-bg: #1e293b;
+}
