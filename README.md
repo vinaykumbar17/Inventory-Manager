@@ -1,70 +1,217 @@
-# Getting Started with Create React App
+# Inventory Manager for Small Shops
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web-based inventory management system developed for small retail shops to efficiently manage products, inventory, billing, customers, and sales records.
 
-## Available Scripts
+The application provides real-time stock tracking, low-stock alerts, billing management, customer history, and inventory analytics through an easy-to-use dashboard.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📦 Product Management
+- Add, update, and delete products
+- Categorize products
+- Manage stock quantities
+- Product image support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 Inventory Management
+- Real-time inventory tracking
+- Inventory analytics dashboard
+- Stock quantity monitoring
+- Product search functionality
 
-### `npm test`
+### 🧾 Billing System
+- Create customer bills
+- Automatic total calculation
+- GST calculation support
+- Download bill as PDF
+- Print bills
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 👥 Customer Management
+- Store customer information
+- View customer purchase history
+- Track customer transactions
 
-### `npm run build`
+### 🔔 Alerts System
+- Low stock alerts
+- Out-of-stock notifications
+- Priority restock suggestions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📈 Reports
+- Sales reports
+- Inventory reports
+- Customer reports
+- Billing history reports
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔐 Authentication & Security
+- Secure Login & Signup
+- Firebase Authentication
+- Protected Routes
+- Admin & Staff Role Access
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
+- React.js
+- React Router DOM
+- CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend & Database
+- Firebase Authentication
+- Cloud Firestore
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Development Tools
+- Git
+- GitHub
+- Visual Studio Code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+src/
+├── components/
+├── firebase/
+├── pages/
+├── App.js
+├── index.js
+└── styles/
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Application Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🔐 Login Page
 
-### Analyzing the Bundle Size
+![Login Page](screenshots/Screenshot%20(88).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📊 Dashboard
 
-### Making a Progressive Web App
+![Dashboard](screenshots/Screenshot%20(89).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 📦 Product Management
 
-### Advanced Configuration
+![Products](screenshots/Screenshot%20(90).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🧾 Billing System
 
-### Deployment
+![Billing](screenshots/Screenshot%20(91).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📜 Bill History
 
-### `npm run build` fails to minify
+![Bill History](screenshots/Screenshot%20(92).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🔔 Low Stock Alerts
+
+![Alerts](screenshots/Screenshot%20(93).png)
+
+---
+
+## 🎯 Project Objectives
+
+- Simplify inventory management for small retail shops.
+- Reduce manual stock tracking errors.
+- Improve billing efficiency.
+- Provide real-time inventory monitoring.
+- Enable efficient customer and sales management.
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/vinaykumbar17/Inventory-Manager.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd Inventory-Manager
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm start
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 📜 Available Scripts
+
+### Run Application
+
+```bash
+npm start
+```
+
+### Run Tests
+
+```bash
+npm test
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Eject Configuration
+
+```bash
+npm run eject
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- Barcode Scanner Integration
+- GST Invoice Generation
+- Advanced Analytics Dashboard
+- Mobile Application Support
+- Multi-Shop Inventory Management
+- Excel/PDF Report Export
+
+---
+
+## 👨‍💻 Developer
+
+**Vinay Kumbar**
+
+Final Year Project – Inventory Manager for Small Shops
+
+GitHub Repository:
+
+https://github.com/vinaykumbar17/Inventory-Manager
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
